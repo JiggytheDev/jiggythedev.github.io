@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+}
+
+/* Base styles (Mobile-first approach) */
+@media (min-width: 375px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Large Desktop styles */
+@media (min-width: 1440px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+.container {
+    width: 50%;
+    margin: 7em 20em ;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    margin-top: 1em;
+    margin-left: 1em;
+    font-family: 'Big Shoulders Display' , sans-serif;
+    font-weight: 700;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.541);
+    margin: 2em;
+    line-height: 20px;
+    font-family: 'Lexend Deca' , sans-serif;
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+}
+
+.content-one {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 7px 0px 0px 7px ;
+}
+
+.content-one button {
+    border: 1px solid hsl(31, 77%, 52%);
+    padding: 12px;
+    margin: 2em;
+    border-radius: 20px;
+    width: 55%;
+    color: hsl(31, 77%, 52%);
+}
+
+.content-one button:hover {
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.content-one h4 {
+    margin: 4em;
+}
+
+.content-two {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.content-two button {
+    border: 1px solid hsl(184, 100%, 22%);
+    padding: 12px;
+    margin: 2em;
+    border-radius: 20px;
+    width: 55%;
+    color: hsl(184, 100%, 22%);
+}
+
+.content-two button:hover {
+    background-color: hsl(184, 100%, 22%);
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.content-two h4 {
+    margin: 4em;
+}
+
+.content-three {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 7px 7px 0px;
+}
+
+.content-three button {
+    border: 1px solid hsl(179, 100%, 13%);
+    padding: 12px;
+    margin: 2em;
+    border-radius: 20px;
+    width: 55%;
+    color: hsl(179, 100%, 13%);
+}
+
+.content-three button:hover {
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid #fff;
+    color: hsl(0, 0%, 95%);
+}
+
+.content-three h4 {
+    margin: 4em;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 11px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+    color: hsla(228, 45%, 44%, 0.582);
+    text-decoration: none;
+}
